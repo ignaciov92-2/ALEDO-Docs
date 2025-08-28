@@ -1,1 +1,14 @@
+title: ALEDO Docs
+description: Documentación operativa y técnica interna
+
+# Usamos el tema remoto oficial (no hace falta instalar el gem del tema)
+remote_theme: just-the-docs/just-the-docs
+
+# Habilitamos el plugin que trae el tema remoto
+plugins:
+  - jekyll-remote-theme
+
+# Opcionales
+color_scheme: light
+search_enabled: true
 

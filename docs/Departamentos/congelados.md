@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Congelados"
-permalink: /Departamentos/congelados/
 parent: "Departamentos"
 nav_order: 3
 ---

@@ -1,12 +1,14 @@
 ---
 title: ALEDO Docs
-nav_order: 1
 layout: default
+nav_order: 1
 ---
 
 # ALEDO Docs
 Base de procedimientos internos.
 
 ## Secciones
-- [Departamentos]({{ '/Departamentos/' | relative_url }})
-- [Manuales_DLR]({{ '/manuales/' | relative_url }})
+- [Departamentos]({{ '/docs/Departamentos/' | relative_url }})
+- [Sistemas]({{ '/docs/sistemas/' | relative_url }})
+- [Ventas]({{ '/docs/ventas/' | relative_url }})
+- [Manuales_DLR]({{ '/docs/manuales/' | relative_url }})

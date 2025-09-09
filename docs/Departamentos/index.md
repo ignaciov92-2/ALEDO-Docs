@@ -1,18 +1,9 @@
 ---
 layout: default
 title: "Departamentos"
-permalink: /Departamentos/
 nav_order: 2
 has_children: true
 ---
-
-# 📦 Departamentos
-
-Elegí un departamento para ver su jerarquía (Depto → Rubros → Familias).
-
-- [Almacén (Depto 1)](./Almacen.md)
-- [Bebidas (Depto 3)](./Bebidas.md)
-- ...
 
 # 📚 Catálogo — Índice principal
 

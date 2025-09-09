@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Limpieza"
-permalink: /Departamentos/Limpieza/
 parent: "Departamentos"
 nav_order: 3
 ---

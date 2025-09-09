@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Mascotas"
-permalink: /Departamentos/mascotas/
 parent: "Departamentos"
 nav_order: 3
 ---

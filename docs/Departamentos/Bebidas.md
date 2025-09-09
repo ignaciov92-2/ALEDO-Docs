@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Bebidas"
-permalink: /Departamentos/Bebidas/
 parent: "Departamentos"
 nav_order: 3
 ---

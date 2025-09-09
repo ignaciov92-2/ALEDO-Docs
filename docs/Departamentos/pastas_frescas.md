@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Pastas frescas"
-permalink: /Departamentos/pastas_frescas/
 parent: "Departamentos"
 nav_order: 3
 ---

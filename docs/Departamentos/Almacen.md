@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Almacen"
-permalink: /Departamentos/Almacen/
 parent: "Departamentos"
 nav_order: 3
 ---

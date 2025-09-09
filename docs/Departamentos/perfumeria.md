@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Perfumeria"
-permalink: /Departamentos/perfumeria/
 parent: "Departamentos"
 nav_order: 3
 ---

@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Frutas y verduras"
-permalink: /Departamentos/frutas_verduras/
 parent: "Departamentos"
 nav_order: 3
 ---

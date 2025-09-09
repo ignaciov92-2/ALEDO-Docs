@@ -1,7 +1,6 @@
 ---
 layout: default
 title: "Quesos y fiambres"
-permalink: /Departamentos/quesos_fiambres/
 parent: "Departamentos"
 nav_order: 3
 ---

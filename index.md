@@ -11,4 +11,5 @@ Base de procedimientos internos.
 - [Departamentos]({{ '/docs/Departamentos/' | relative_url }})
 - [Sistemas]({{ '/docs/sistemas/' | relative_url }})
 - [Ventas]({{ '/docs/ventas/' | relative_url }})
-- [Manuales_DLR]({{ '/docs/manuales/' | relative_url }})
+- [Manuales_DLR]({{ '/docs/Manuales/' | relative_url }})
+

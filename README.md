@@ -1,5 +1,5 @@
 ```bash
-docs
+ALEDO-Docs
 ├─ index.md
 ├─ _config.yml
 ├─ Gemfile

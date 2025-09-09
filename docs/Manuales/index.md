@@ -1,22 +1,19 @@
 ---
 layout: default
 title: "Manuales DLR"
-permalink: /manuales/
 nav_order: 4
 ---
 
 # 📄 Manuales DLR
 
-> Los Manuales presentados son los compartidos por el equipo de DLR, no siempre su visual es identica a la nuestra pero los conceptos son iguales.
-
-- **Alta operadores** — [Ver/descargar]({{ '/manuales/alta_operadores.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual artículos** — [Ver/descargar]({{ '/manuales/manual_articulos.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual caja** — [Ver/descargar]({{ '/manuales/manual_caja.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual de promociones** — [Ver/descargar]({{ '/manuales/manual_promociones.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual de stock** — [Ver/descargar]({{ '/manuales/manual_stock.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual eFactura Solutia** — [Ver/descargar]({{ '/manuales/manual_efactura_solutia.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual empresas** — [Ver/descargar]({{ '/manuales/manual_empresas.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual importación** — [Ver/descargar]({{ '/manuales/manual_importacion.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Manual transferencias** — [Ver/descargar]({{ '/manuales/manual_transferencias.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Preinventarios** — [Ver/descargar]({{ '/manuales/preinventarios.pdf' | relative_url }}){:target="_blank" rel="noopener"}
-- **Recepciones** — [Ver/descargar]({{ '/manuales/recepciones.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Alta operadores** — [Ver/descargar]({{ '/docs/manuales/ALTA%20OPERADORES.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual artículos** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20ARTICULOS.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual caja** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20CAJA.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual de promociones** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20DE%20PROMOCIONES.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual de stock** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20DE%20STOCK.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual eFactura Solutia** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20EFACTURA%20SOLUTIA.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual empresas** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20EMPRESAS.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual importación** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20IMPORTACION.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Manual transferencias** — [Ver/descargar]({{ '/docs/manuales/MANUAL%20TRANSFERENCIAS.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Preinventarios** — [Ver/descargar]({{ '/docs/manuales/PREINVENTARIOS.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+- **Recepciones** — [Ver/descargar]({{ '/docs/manuales/RECEPCIONES.pdf' | relative_url }}){:target="_blank" rel="noopener"}

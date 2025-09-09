@@ -5,7 +5,7 @@ description: Documentación operativa y técnica interna
 url: "https://ignaciov92-2.github.io"
 baseurl: "/ALEDO-Docs"
 
-remote_theme: just-the-docs/just-the-docs
+remote_theme: just-the-docs/just-the-docs@v0.7.0
 
 plugins:
   - jekyll-remote-theme
@@ -19,6 +19,8 @@ permalink: pretty
 # Activa Mermaid en Just the Docs
 mermaid:
   version: "10.1.0"
+
+logo: "/assets/logo.png"
 
 # opcional
 color_scheme: light

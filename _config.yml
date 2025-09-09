@@ -1,12 +1,24 @@
 title: ALEDO Docs
 description: Documentación operativa y técnica interna
 
+# Importante para repos de "Project Pages":
+url: "https://ignaciov92-2.github.io"
+baseurl: "/ALEDO-Docs"
+
 remote_theme: just-the-docs/just-the-docs
 
 plugins:
   - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-sitemap
+
+color_scheme: light
+search_enabled: true
+permalink: pretty
+
+# Activa Mermaid en Just the Docs
+mermaid:
+  version: "10.1.0"
 
 # opcional
 color_scheme: light

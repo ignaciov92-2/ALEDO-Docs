@@ -1,4 +1,4 @@
-# Catálogo ALMACEN — Índice y Detalle por Rubro (A4 horizontal)
+# Catálogo ALMACEN
 
 ## Índice (Depto → Rubros)
 ```mermaid
@@ -34,12 +34,13 @@ flowchart LR
     R30["Rubro 30 — SNACKS"]
     R31["Rubro 31 — GOLOSINAS Y CHOCOLATE"]
     R35["Rubro 35 — PARA PREPARAR"]
+    R49["Rubro 49 — MESA DULCE NAVIDEÑA"]
   end
 
   %% Enlaces del Depto a cada Rubro (mantiene LR y 3 filas)
   D1 --> R1 & R2 & R3 & R4 & R6 & R11
   D1 --> R12 & R16 & R19 & R24
-  D1 --> R30 & R31 & R35
+  D1 --> R30 & R31 & R35 & R49
 ```
 
 ---
@@ -266,4 +267,17 @@ flowchart LR
     R35 --> F35_8["Familia 8 — POSTRES"]
   end
   D1 --> R35
+```
+
+## Rubro 49 — MESA DULCE NAVIDEÑA
+```mermaid
+%%{init: {'flowchart': {'htmlLabels': true, 'curve': 'linear', 'nodeSpacing': 10, 'rankSpacing': 14}, 'themeVariables': {'fontSize': '12px'}}}%%
+flowchart LR
+  D1["Depto 1 — ALMACEN"]
+  subgraph G_R49["Rubro 49 — MESA DULCE NAVIDEÑA"]
+    direction TB
+    R49["Rubro 49 — MESA DULCE NAVIDEÑA"]
+    R49 --> F49_1["Familia 1 — MESA DULCE NAVIDEÑA"]
+  end
+  D1 --> R49
 ```

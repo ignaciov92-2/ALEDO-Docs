@@ -2,6 +2,7 @@
 layout: default
 title: "Lacteos"
 permalink: /Departamentos/lacteos/
+parent: "Departamentos"
 nav_order: 3
 ---
 

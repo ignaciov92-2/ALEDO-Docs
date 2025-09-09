@@ -2,6 +2,7 @@
 layout: default
 title: "carnes"
 permalink: /Departamentos/carnes/
+parent: "Departamentos"
 nav_order: 3
 ---
 

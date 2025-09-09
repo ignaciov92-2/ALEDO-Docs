@@ -2,6 +2,7 @@
 layout: default
 title: "Panaderia"
 permalink: /Departamentos/panaderia/
+parent: "Departamentos"
 nav_order: 3
 ---
 # Catálogo PANADERIA Y REPOSTERIA

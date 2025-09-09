@@ -2,6 +2,7 @@
 layout: default
 title: "Bebes y ninios"
 permalink: /Departamentos/bebes_ninios/
+parent: "Departamentos"
 nav_order: 3
 ---
 

@@ -9,5 +9,4 @@ Base de procedimientos internos.
 
 ## Secciones
 - [Departamentos]({{ '/Departamentos/' | relative_url }})
-- [Sistemas]({{ '/sistemas/' | relative_url }})
-- [Ventas]({{ '/ventas/' | relative_url }})
+- [Manuales_DLR]({{ '/manuales/' | relative_url }})

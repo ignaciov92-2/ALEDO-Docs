@@ -2,6 +2,7 @@
 layout: default
 title: "Hogar"
 permalink: /Departamentos/Hogar_textil/
+parent: "Departamentos"
 nav_order: 3
 ---
 

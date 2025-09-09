@@ -2,6 +2,7 @@
 layout: default
 title: "Comidad preparadas"
 permalink: /Departamentos/comidas_preparadas/
+parent: "Departamentos"
 nav_order: 3
 ---
 

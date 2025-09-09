@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Panaderia"
+permalink: /Departamentos/panaderia/
+nav_order: 3
+---
 # Catálogo PANADERIA Y REPOSTERIA
 
 ## Índice (Depto → Rubros)

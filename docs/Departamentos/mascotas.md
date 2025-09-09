@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Mascotas"
+permalink: /Departamentos/mascotas/
+nav_order: 3
+---
 # Catálogo MASCOTAS
 
 ## Índice (Depto → Rubros)

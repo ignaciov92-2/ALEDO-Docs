@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Pastas frescas"
+permalink: /Departamentos/pastas_frescas/
+nav_order: 3
+---
+
 # Catálogo PASTAS FRESCAS
 
 ## Índice (Depto → Rubros)

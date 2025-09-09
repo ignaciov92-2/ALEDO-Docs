@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Comidad preparadas"
+permalink: /Departamentos/comidas_preparadas/
+nav_order: 3
+---
+
 # Catálogo COMIDAS PREPARADAS
 ## Índice (Depto → Rubros)
 ```mermaid

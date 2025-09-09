@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Hogar"
+permalink: /Departamentos/Hogar_textil/
+nav_order: 3
+---
+
 # Catálogo HOGAR Y TEXTIL
 
 ## Índice (Depto → Rubros)

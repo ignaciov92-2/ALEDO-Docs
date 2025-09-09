@@ -1,3 +1,9 @@
+---
+layout: default
+title: "Limpieza"
+permalink: /Departamentos/Limpieza/
+nav_order: 3
+---
 # Catálogo LIMPIEZA
 
 ## Índice (Depto → Rubros)

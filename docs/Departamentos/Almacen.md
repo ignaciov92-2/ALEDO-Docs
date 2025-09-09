@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Almacen"
+permalink: /Departamentos/Almacen/
+nav_order: 3
+---
+
 # Catálogo ALMACEN
 
 ## Índice (Depto → Rubros)

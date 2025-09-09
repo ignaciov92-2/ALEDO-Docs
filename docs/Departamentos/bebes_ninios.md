@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Bebes y ninios"
+permalink: /Departamentos/bebes_ninios/
+nav_order: 3
+---
+
 # Catálogo BEBES Y NINOS
 ## Índice (Depto → Rubros)
 ```mermaid

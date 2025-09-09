@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Lacteos"
+permalink: /Departamentos/lacteos/
+nav_order: 3
+---
+
 # Catálogo LACTEOS
 
 ## Índice (Depto → Rubros)

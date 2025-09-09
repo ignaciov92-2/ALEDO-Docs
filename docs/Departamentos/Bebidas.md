@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Bebidas"
+permalink: /Departamentos/Bebidas/
+nav_order: 3
+---
+
 # Catálogo BEBIDAS
 
 ## Índice (Depto → Rubros)

@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Quesos y fiambres"
+permalink: /Departamentos/quesos_fiambres/
+nav_order: 3
+---
+
 # Catálogo QUESOS Y FIAMBRES
 
 ## Índice (Depto → Rubros)

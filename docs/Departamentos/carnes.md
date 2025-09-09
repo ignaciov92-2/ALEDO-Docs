@@ -1,3 +1,10 @@
+---
+layout: default
+title: "carnes"
+permalink: /Departamentos/carnes/
+nav_order: 3
+---
+
 # Catálogo CARNES
 
 ## Índice (Depto → Rubros)

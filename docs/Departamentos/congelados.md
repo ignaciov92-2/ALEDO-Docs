@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Congelados"
+permalink: /Departamentos/congelados/
+nav_order: 3
+---
+
 # Catálogo CONGELADOS
 
 ## Índice (Depto → Rubros)

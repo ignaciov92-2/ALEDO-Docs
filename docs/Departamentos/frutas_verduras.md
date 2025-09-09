@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Frutas y verduras"
+permalink: /Departamentos/frutas_verduras/
+nav_order: 3
+---
+
 # Catálogo FRUTAS Y VERDURAS
 ## Índice (Depto → Rubros)
 ```mermaid

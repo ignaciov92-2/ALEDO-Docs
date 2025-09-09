@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Perfumeria"
+permalink: /Departamentos/perfumeria/
+nav_order: 3
+---
+
 # Catálogo PERFUMERIA
 
 ## Índice (Depto → Rubros)

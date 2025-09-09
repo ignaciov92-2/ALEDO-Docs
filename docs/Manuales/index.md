@@ -7,7 +7,7 @@ nav_order: 4
 
 # 📄 Manuales DLR
 
-> Los PDFs no necesitan *front matter*; se sirven estáticos. Este índice los enlaza.
+> Los Manuales presentados son los compartidos por el equipo de DLR, no siempre su visual es identica a la nuestra pero los conceptos son iguales.
 
 - **Alta operadores** — [Ver/descargar]({{ '/manuales/alta_operadores.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 - **Manual artículos** — [Ver/descargar]({{ '/manuales/manual_articulos.pdf' | relative_url }}){:target="_blank" rel="noopener"}

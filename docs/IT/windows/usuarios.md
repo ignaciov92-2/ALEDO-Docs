@@ -1,3 +1,11 @@
+---
+layout: default
+title: "Usuarios en Windows"
+parent: "Windows"
+grand_parent: "IT"
+nav_order: 1
+---
+
 # Informe: Creación y Uso del Usuario Administrador en Windows
 
 Este documento describe cómo habilitar un usuario administrador en Windows, asignarle una clave propia y utilizarlo para recuperar contraseñas de otros usuarios. El objetivo es garantizar que la PC nunca quede inutilizable en caso de pérdida o cambio de clave de los usuarios habituales.

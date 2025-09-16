@@ -1,8 +1,8 @@
 ---
 layout: default
 title: "Error de sincronización"
-parent: "cajas"
-grand_parent: "sistemas"
+parent: "Cajas"
+grand_parent: "Sistemas"
 nav_order: 2
 ---
 

@@ -9,6 +9,5 @@ has_children: true
 
 # Kretz
 
-Instructivos y notas técnicas específicas de balanzas Kretz.
-
 - [Cambio de precios y pesables]({{ '/docs/IT/balanzas/kretz/cambio_precios' | relative_url }})
+- 🔐 [Acceso directo (con clave)]({{ '/docs/IT/balanzas/kretz/cambio_precios' | relative_url }}?k=KRETZ-TEST-2025)

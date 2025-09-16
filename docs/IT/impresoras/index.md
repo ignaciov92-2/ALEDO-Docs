@@ -1,5 +1,10 @@
 ---
 layout: default
-title: "Manuales Impresoras"
-nav_order: 4
+title: "Impresoras"
+parent: "IT"
+nav_order: 40
+has_children: true
 ---
+
+# Impresoras
+(Instalación y mantenimiento)

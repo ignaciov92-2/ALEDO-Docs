@@ -17,6 +17,34 @@
         securityLevel: 'loose'
       });
     </script>
+
+    {% if page.gated %}
+    <script>
+    (function () {
+      const gateId = "{{ page.gate_id | default: page.url }}";
+      const KEY    = "{{ page.gate_key | default: 'ALEDO-TEST-1234' }}";
+
+      const params = new URLSearchParams(location.search);
+      const ok = localStorage.getItem("gate:"+gateId) === KEY || params.get('k') === KEY;
+
+      if (ok) {
+        if (params.get('k') === KEY) localStorage.setItem("gate:"+gateId, KEY);
+        return;
+      }
+
+      document.documentElement.style.visibility = "hidden";
+      const pass = window.prompt("Acceso restringido. Ingresá la clave:");
+      if (pass === KEY) {
+        localStorage.setItem("gate:"+gateId, KEY);
+        document.documentElement.style.visibility = "visible";
+      } else {
+        document.body.innerHTML = "<h1 style='font-family:sans-serif'>Acceso denegado</h1><p>Clave incorrecta.</p>";
+        document.documentElement.style.visibility = "visible";
+      }
+    })();
+    </script>
+    {% endif %}
+
   </head>
   <body>
     <main class="page-content">

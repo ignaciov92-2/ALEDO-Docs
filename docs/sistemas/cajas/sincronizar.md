@@ -25,7 +25,7 @@ El último paso recomendado es verificar el servicio **ZeroTier**, ya que en la 
 3. Desde allí, seleccionar el nodo correspondiente.  
 4. Presionar el botón **Sincronizar nodo**.
 
-![Error SQL](/ALEDO-Docs/assets/docs_cajas/ErrorSql.png)  
+![Error SQL](/ALEDO-Docs/assets/docs_cajas/Errorsql.png)  
 ![Error de nodo](/ALEDO-Docs/assets/docs_cajas/errornodo.png)
 
 - Si la sincronización se completa correctamente → el problema queda resuelto.  

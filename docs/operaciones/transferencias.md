@@ -1,3 +1,4 @@
+
 # 📦 Procedimiento de Control Físico + Digital en el Armado de Pallets
 
 ## 🎯 Objetivo

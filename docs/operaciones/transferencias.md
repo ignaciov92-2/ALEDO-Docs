@@ -1,53 +1,96 @@
-
 # 📦 Procedimiento de Control Físico + Digital en el Armado de Pallets
 
 ## 🎯 Objetivo
-Reducir los errores humanos en el proceso de **transferencia de mercadería entre sucursales**, asegurando que lo enviado coincida con lo registrado en el ERP y que llegue a la sucursal correcta.
+Reducir errores en el proceso de **transferencia de mercadería entre sucursales**, garantizando que lo enviado coincida con lo registrado en el ERP y que llegue correctamente a destino.  
+Se contemplan **dos escenarios operativos**:
+1. Transferencia con **pedido previo de sucursal destino**.  
+2. Transferencia **sin pedido previo** (envío directo desde sucursal origen).  
 
 ---
 
 ## 1. Roles Involucrados
-- **Operario A (Armador):** arma el pallet siguiendo la orden de transferencia.  
-- **Operario B (Controlador):** revisa el pallet armado y completa el check-list de verificación.  
-- **Supervisor:** recibe y archiva los check-lists como evidencia y trazabilidad.  
+- **Operario A (Armador):** arma el pallet en base al pedido o al stock disponible.  
+- **Operario B (Controlador):** revisa el pallet armado y genera la transferencia en el sistema.  
+- **Supervisor Origen:** archiva los check-lists como evidencia de control.  
+- **Sucursal Destino:** recibe, controla y confirma la mercadería recibida.  
 
 ---
 
-## 2. Flujo del Proceso
+## 2. Flujos del Proceso
+
+### Escenario A — Con Pedido Previo
+
+```mermaid
+flowchart TD
+    A[Pedido sucursal destino] --> B[Operario A arma pallet según stock disponible]
+    B --> C[Operario B revisa pallet + pedido]
+    C --> D[Genera transferencia en el ERP con lo que hay]
+    D --> E[Autoriza carga al camión]
+    E --> F[Supervisor archiva check-list]
+    F --> G[Sucursal destino recibe]
+    G --> H{Verifica contra transferencia}
+    H -->|Correcto| I[Confirma recepción]
+    H -->|Diferencias| J[Reporta faltantes o errores]
+```
+
+---
+
+### Escenario B — Sin Pedido Previo
 
 ```mermaid
 flowchart TD
     A[Orden de transferencia] --> B[Operario A arma pallet]
-    B --> C[Operario B recibe pallet armado]
+    B --> C[Operario B revisa pallet armado]
     C --> D{Verifica check-list}
     D -->|Correcto| E[Autoriza carga al camión]
     D -->|Error detectado| B
     E --> F[Supervisor archiva check-list]
+    F --> G[Sucursal destino recibe y controla]
 ```
 
 ---
 
 ## 3. Paso a Paso
 
-### Paso 1 — Armado
-- Operario A recibe la **orden de transferencia** (papel o sistema).  
-- Arma el pallet con la mercadería.  
-- Coloca **etiqueta interna** con: número de transferencia + sucursal destino.  
+### Escenario A — Con Pedido
+1. **Armado**  
+   - Operario A recibe el **pedido de sucursal destino**.  
+   - Arma el pallet con lo disponible en stock.  
+   - Marca los faltantes en una **observación interna**.  
+   - Coloca etiqueta con: número de pedido + sucursal destino.  
 
-### Paso 2 — Verificación
-- Operario B recibe la orden y el pallet armado.  
-- Completa un **check-list** verificando:  
-  - Número de transferencia.  
-  - Sucursal destino.  
-  - Artículos coinciden con la orden.  
-  - Cantidades coinciden con la orden.  
+2. **Verificación y Transferencia**  
+   - Operario B revisa el pallet contra el pedido recibido.  
+   - Registra en el ERP una **transferencia ajustada a lo que hay**.  
+   - Completa check-list validando: pedido vs pallet vs transferencia.  
 
-### Paso 3 — Autorización
-- Si todo está correcto, Operario B firma y autoriza la carga.  
-- Si hay errores, devuelve a Operario A para corrección.  
+3. **Autorización y Envío**  
+   - Si coincide, autoriza carga.  
+   - Si hay diferencias graves, devuelve a Armador.  
 
-### Paso 4 — Registro
-- Supervisor archiva el check-list firmado como prueba de control.  
+4. **Recepción en Sucursal Destino**  
+   - Controlan la transferencia recibida vs mercadería real.  
+   - Confirman en ERP o reportan diferencias.  
+
+---
+
+### Escenario B — Sin Pedido
+1. **Armado**  
+   - Operario A recibe la **orden de transferencia**.  
+   - Arma pallet completo con la mercadería indicada.  
+   - Coloca etiqueta con: número de transferencia + sucursal destino.  
+
+2. **Verificación**  
+   - Operario B revisa artículos y cantidades contra la orden.  
+   - Completa check-list de validación.  
+
+3. **Autorización**  
+   - Si coincide, autoriza la carga.  
+   - Si no, devuelve a Armador para corrección.  
+
+4. **Registro y Archivo**  
+   - Supervisor guarda check-list firmado.  
+   - Sucursal destino controla recepción contra transferencia.  
 
 ---
 
@@ -55,14 +98,16 @@ flowchart TD
 
 | Campo              | Dato esperado      | Dato verificado | ✔/✖ |
 |--------------------|-------------------|-----------------|-----|
-| N° Transferencia   | 12345             | 12345           | ✔   |
+| Pedido/Transferencia | 56789 / 12345   | 56789 / 12345   | ✔   |
 | Sucursal destino   | Suc 2             | Suc 2           | ✔   |
 | Artículo A         | 50 unidades       | 50              | ✔   |
 | Artículo B         | 30 unidades       | 25              | ✖   |
+| Observaciones      | Faltan 5 unid.    | Registrado       | ✔   |
 
 **Firmas:**  
 - Armador: ____________  
 - Controlador: ____________  
+- Supervisor: ____________  
 - Fecha y hora: ____________  
 
 ---
@@ -76,15 +121,7 @@ graph LR
     C --> D[Mayor eficiencia operativa]
     A --> E[Mayor trazabilidad]
     E --> F[Responsabilidad clara por rol]
+    E --> G[Confianza entre sucursales]
 ```
 
 ---
-
-## 6. Opcional (Mejora Tecnológica)
-- Usar **Google Forms, Excel en tablet o app interna** para check-lists → reportes en tiempo real.  
-- Incorporar **lectores de código de barras** para que Operario B valide artículos y cantidades.  
-
----
-
-## ✅ Conclusión
-El **doble control (armador + verificador)** asegura que la transferencia sea validada antes de salir, evitando errores graves de destino o cantidades y creando **trazabilidad profesional** del proceso.

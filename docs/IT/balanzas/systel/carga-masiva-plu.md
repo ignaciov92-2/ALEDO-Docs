@@ -17,7 +17,9 @@ Esta guía paso a paso describe cómo importar masivamente códigos PLU a la bal
 2. En el menú *Favoritos*, seleccione la vista **Balanza Systel**.
 3. Elija el **departamento** que desea importar en el filtro correspondiente.
 
-![Ingreso a la vista Solutia](img/Ingreso%20a%20la%20vista%20solutia.png)
+![Ingreso a la vista Solutia](/ALEDO-Docs/assets/docs_systel/Ingreso_a_la_vista_solutia.png)
+
+
 
 ---
 
@@ -25,7 +27,7 @@ Esta guía paso a paso describe cómo importar masivamente códigos PLU a la bal
 
 1. Con la vista cargada, haga clic en **Exportar** y seleccione el formato **.xls**.
 
-![Exportar PLU en formato Excel](img/Exportar%20PLU%20en%20formato%20excel.png)
+![Exportar PLU en formato Excel](/ALEDO-Docs/assets/docs_systel/Exportar_PLU_en_formato_excel.png)
 
 ---
 
@@ -34,7 +36,7 @@ Esta guía paso a paso describe cómo importar masivamente códigos PLU a la bal
 1. En el escritorio, haga doble clic en el ícono de **Qendra**.
 2. Introduzca sus credenciales y acceda al sistema.
 
-![Ingreso a Qendra](img/Ingreso%20a%20Qendra.png)
+![Ingreso a Qendra](/ALEDO-Docs/assets/docs_systel/Ingreso_a_Qendra.png)
 
 ---
 
@@ -42,7 +44,7 @@ Esta guía paso a paso describe cómo importar masivamente códigos PLU a la bal
 
 1. En el menú principal de Qendra, seleccione **Importación**.
 
-![Menú de importación](img/Menu%20importaci%C3%B3n.png)
+![Menú de importación](/ALEDO-Docs/assets/docs_systel/Menu_importacion.png)
 
 ---
 
@@ -51,7 +53,7 @@ Esta guía paso a paso describe cómo importar masivamente códigos PLU a la bal
 1. Elija el **formato de importación** **Excel**.
 2. Navegue y seleccione el archivo **.xls** generado en el paso 2.
 
-![Importar Excel](img/Importar%20Excel.png)
+![Importar Excel](/ALEDO-Docs/assets/docs_systel/Importar_Excel.png)
 
 ---
 
@@ -60,7 +62,7 @@ Esta guía paso a paso describe cómo importar masivamente códigos PLU a la bal
 1. Aparecerá una pantalla para **asignar columnas** del archivo a los campos de la balanza.
 2. Verifique que cada columna esté correctamente mapeada y confirme.
 
-![Match de columnas](img/Match%20de%20columnas.png)
+![Match de columnas](/ALEDO-Docs/assets/docs_systel/Match_de_columnas.png)
 
 ---
 

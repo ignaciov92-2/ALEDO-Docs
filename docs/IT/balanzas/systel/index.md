@@ -1,6 +1,8 @@
 ---
 layout: default
 title: "Systel"
+parent: "Balanzas"
+grand_parent: "IT"
 nav_order: 3
 has_children: true
 ---

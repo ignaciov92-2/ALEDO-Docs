@@ -7,6 +7,70 @@ nav_order: 3
 
 # Carga masiva de PLU
 
-Esta página explica cómo realizar la carga masiva de códigos PLU en la balanza Systel, incluyendo los formatos de archivo aceptados y los pasos para ejecutar la importación.
+Esta guía paso a paso describe cómo importar masivamente códigos PLU a la balanza **Systel** utilizando la vista de **Solutia** y la herramienta **Qendra**.
 
-<!-- TODO: agregar ejemplos de archivo CSV/Excel y procedimiento paso‑a‑paso -->
+---
+
+## 1. Acceder a la vista de Solutia
+
+1. Abra **Solutia**.
+2. En el menú *Favoritos*, seleccione la vista **Balanza Systel**.
+3. Elija el **departamento** que desea importar en el filtro correspondiente.
+
+![Ingreso a la vista Solutia](img/Ingreso%20a%20la%20vista%20solutia.png)
+
+---
+
+## 2. Exportar los datos a Excel
+
+1. Con la vista cargada, haga clic en **Exportar** y seleccione el formato **.xls**.
+
+![Exportar PLU en formato Excel](img/Exportar%20PLU%20en%20formato%20excel.png)
+
+---
+
+## 3. Iniciar sesión en Qendra
+
+1. En el escritorio, haga doble clic en el ícono de **Qendra**.
+2. Introduzca sus credenciales y acceda al sistema.
+
+![Ingreso a Qendra](img/Ingreso%20a%20Qendra.png)
+
+---
+
+## 4. Abrir el asistente de importación
+
+1. En el menú principal de Qendra, seleccione **Importación**.
+
+![Menú de importación](img/Menu%20importaci%C3%B3n.png)
+
+---
+
+## 5. Seleccionar el archivo exportado
+
+1. Elija el **formato de importación** **Excel**.
+2. Navegue y seleccione el archivo **.xls** generado en el paso 2.
+
+![Importar Excel](img/Importar%20Excel.png)
+
+---
+
+## 6. Realizar el *match* de columnas
+
+1. Aparecerá una pantalla para **asignar columnas** del archivo a los campos de la balanza.
+2. Verifique que cada columna esté correctamente mapeada y confirme.
+
+![Match de columnas](img/Match%20de%20columnas.png)
+
+---
+
+## 7. Finalizar la importación
+
+1. Revise el resumen de la importación.
+2. Confirme para que los PLU se carguen en la balanza.
+3. Verifique que los datos se hayan importado correctamente en la vista de **Solutia**.
+
+---
+
+> **Nota:** Asegúrese de que el archivo Excel cumpla con el formato requerido Sin PLUs repetidos y que el archivo tenga los campos necesarios para la importación.
+

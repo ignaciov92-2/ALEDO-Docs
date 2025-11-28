@@ -2,6 +2,7 @@
 layout: default
 title: "Conexión Remota"
 parent: "Conexión"
+grand_parent: "IT"
 nav_order: 2
 ---
 
@@ -26,7 +27,7 @@ Acceda a la herramienta a través del siguiente enlace:
 ## Pasos para Conectarse
 
 1. Abra su navegador preferido y diríjase a la URL indicada arriba.
-2. Descargue el archivo desde el repositorio de documentación:
+2. Descargue el archivo desde el repositorio de documentación en la computadora objetivo:
 
 <a href="https://github.com/ignaciov92-2/ALEDO-Docs/raw/main/docs/IT/conexion/meshagent64-Aledo.exe"
    download="meshagent64-Aledo.exe"

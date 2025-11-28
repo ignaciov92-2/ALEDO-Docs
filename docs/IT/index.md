@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "IT"
-nav_order: 30
+nav_order: 3
 has_children: true
 ---
 

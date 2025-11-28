@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Conexión Remota"
-parent: "conexion"
+parent: "Conexión"
 nav_order: 2
 ---
 

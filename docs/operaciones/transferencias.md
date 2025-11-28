@@ -1,3 +1,10 @@
+---
+layout: default
+title: "Transferencias"
+nav_order: 1
+parent: Operaciones
+---
+
 # 📦 Procedimiento de Control Físico + Digital en el Armado de Pallets
 
 ## 🎯 Objetivo

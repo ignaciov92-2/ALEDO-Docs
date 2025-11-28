@@ -1,8 +1,7 @@
 ---
 layout: default
 title: "Conexión Remota"
-parent: "IT"
-has_children: true
+parent: "conexion"
 nav_order: 2
 ---
 
@@ -14,7 +13,7 @@ Esta guía describe cómo conectarse de manera remota a las computadoras de la e
 
 Acceda a la herramienta a través del siguiente enlace:
 
-[DLR Remote Connection Portal](https://mc.soportedlr.com.ar/)
+[DLR Software - Login](https://mc.soportedlr.com.ar/)
 
 ## Credenciales de Acceso
 

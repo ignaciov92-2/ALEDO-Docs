@@ -19,10 +19,10 @@ Acceda a la herramienta a través del siguiente enlace:
 ## Credenciales de Acceso
 
 - **Usuario:** `supermercadosaledo.sistemas`
-- **Contraseña:** `!!SuperAledo2025`
+- **Contraseña:** `***********`
 
 
-> **Importante:** Mantenga estas credenciales confidenciales y cambie la contraseña periódicamente según la política de seguridad.
+> **Importante:** Mantenga estas credenciales confidenciales.
 
 ## Pasos para Conectarse
 
@@ -37,7 +37,7 @@ Acceda a la herramienta a través del siguiente enlace:
 </a>
 
 3. Ejecute el archivo descargado en la máquina objetivo. de la lista.
-4. Haga clic en **Ejecutar**. Le saldrà alerta de los antivirus, es normal ignorar las advertencias.
+4. Haga clic en **Ejecutar**. Le saldrá alerta de los antivirus, es normal ignorar las advertencias.
 5. Verifique que la sesión remota aparezca en el MeshAgent.
 6. Es buena practica renombrar la pc objetivo con el nombre del usuario operador o puesto para recordar como dar soporte a esa pc.
 

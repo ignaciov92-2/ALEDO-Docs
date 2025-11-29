@@ -12,3 +12,4 @@ Documentación de soporte técnico e infraestructura.
 - [Conexión]({{ '/docs/IT/conexion/' | relative_url }})
 - [Windows]({{ '/docs/IT/windows/' | relative_url }})
 - [Impresoras]({{ '/docs/IT/impresoras/' | relative_url }})
+- [Lector de huella Anviz]({{ '/docs/IT/anviz/' | relative_url }})

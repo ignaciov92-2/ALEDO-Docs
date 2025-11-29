@@ -28,3 +28,5 @@ nav_order: 1
 - **Manual caja** — [Ver/descargar]({{ '/docs/Manuales/MANUAL%20CAJA.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 - **Manual cambio de medios de pago** — [Ver/descargar]({{ '/docs/Manuales/Cambio%20de%20medio%20de%20pago.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 - **Manual eFactura Solutia** — [Ver/descargar]({{ '/docs/Manuales/MANUAL%20EFACTURA%20SOLUTIA.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+
+

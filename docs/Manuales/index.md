@@ -19,6 +19,10 @@ nav_order: 1
 - **Preinventarios** — [Ver/descargar]({{ '/docs/Manuales/PREINVENTARIOS.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 - **Recepciones** — [Ver/descargar]({{ '/docs/Manuales/RECEPCIONES.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 
+### Resumen para compartir empleados de deposito:
+
+- **Documentos de articulos** — [Ver/descargar]({{ '/docs/Manuales/docs.pdf' | relative_url }}){:target="_blank" rel="noopener"}
+
 ## Caja
 - **Alta operadores** — [Ver/descargar]({{ '/docs/Manuales/ALTA%20OPERADORES.pdf' | relative_url }}){:target="_blank" rel="noopener"}
 - **Manual caja** — [Ver/descargar]({{ '/docs/Manuales/MANUAL%20CAJA.pdf' | relative_url }}){:target="_blank" rel="noopener"}

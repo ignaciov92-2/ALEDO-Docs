@@ -2,6 +2,7 @@
 layout: default
 title: "Problemas con tickets"
 parent: "Systel"
+grand_pareSystelnt: "Balanzas"
 nav_order: 2
 ---
 

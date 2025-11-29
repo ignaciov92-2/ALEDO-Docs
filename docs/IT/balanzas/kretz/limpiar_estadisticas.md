@@ -2,8 +2,8 @@
 layout: default
 title: "Limpiar Estadísticas"
 nav_order: 4
-parent: Balanzas
-grand_parent: IT
+parent: "Kretz"
+grand_parent: "Balanzas"
 ---
 
 # Cómo limpiar las estadísticas en la balanza Kretz

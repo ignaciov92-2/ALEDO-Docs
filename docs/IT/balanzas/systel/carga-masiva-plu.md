@@ -2,7 +2,7 @@
 layout: default
 title: "Carga masiva de PLU"
 parent: "Systel"
-grand_parent: "Balanzas"
+grand_pareSystelnt: "Balanzas"
 nav_order: 3
 ---
 

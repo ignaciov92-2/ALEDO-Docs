@@ -10,7 +10,8 @@ grand_parent: "Balanzas"
 
 El proceso de actualizar balanza consiste en pasar los precios actualizados por sistema a las balanzas Kretz conectadas por red. Aunque es un proceso simple para el usuario común, requiere verificar ciertas condiciones previas para asegurar su éxito.
 
-![Exportar Balanzas](/assets/docs_kretz/exportar_balanzas.jpg)
+![Exportar Balanzas](/ALEDO-Docs/assets/docs_kretz/exportar_balanzas.jpg)
+
 
 ## Diagrama de Flujo
 
@@ -45,9 +46,11 @@ Antes de exportar, verifique los siguientes puntos:
 Es fundamental validar que la caja desde la cual se actualizará ya tenga los precios nuevos. El precio que tenga la caja es el que se enviará a la balanza.
 
 ### 2. Conectividad de la Balanza
-Verifique que la balanza esté conectada a la red (Internet/Intranet).
+Verifique que la balanza esté conectada a la red.
 
 *   **Indicador Visual:** Busque el icono de red en la pantalla LED de la balanza.
+<img src="/ALEDO-Docs/assets/docs_kretz/indicador_red.jpg" alt="Icono" style="width: 64px; height: auto;">
+
 *   **Reinicio:** Si tiene dudas, reinicie la balanza. Al encender, mostrará un mensaje confirmando la conexión.
 *   **Verificación Manual:**
     1.  Ingrese al menú como **Administrador**.

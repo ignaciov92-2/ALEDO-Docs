@@ -27,13 +27,13 @@ Para investigar el problema, debemos acceder a los archivos de transmisión de l
     *   Si no sabes cuál es, ingresa a cada carpeta, abre el archivo `COM` (o `COM.txt`) con el Bloc de notas.
     *   Verifica la **IP** que figura en el archivo para confirmar que corresponde a la balanza deseada.
 
-![DataGate](/ALEDO-Docs/assets/docs_kretz/DataGate.png)
+![DataGate](/ALEDO-Docs/assets/docs_kretz/datagate.png)
 ![Ip DataGate](/ALEDO-Docs/assets/docs_kretz/ip_datagate.png)
 
 
 ### 3.2 Análisis del archivo INFO
 Dentro de la carpeta del DataGate identificado:
-1.  Abrir el archivo `info` (o `info.txt`) con el Bloc de notas.
+1.  Abrir el archivo `info` con el Bloc de notas.
 2.  Buscar el artículo problemático (Ctrl + B) por descripción o número de PLU.
 
 **Interpretación de los datos:**
@@ -91,23 +91,23 @@ Si tras los pasos anteriores el archivo `info` sigue sin actualizarse:
 
 ```mermaid
 flowchart TD
-    A[Inicio: Falla de Exportación] --> B{¿Datos en archivo INFO correctos?}
+    A["Inicio: Falla de Exportación"] --> B{"¿Datos en archivo INFO correctos?"}
     
-    B -- Sí --> C[Ejecutar JDataGate.jar]
-    C --> D[Monitorear Consola]
-    D --> E[Fin]
+    B -- "Sí" --> C["Ejecutar JDataGate.jar"]
+    C --> D["Monitorear Consola"]
+    D --> E["Fin"]
     
-    B -- No --> F{¿POS Abierto y Sincronizado?}
-    F -- No --> G[Abrir POS / Sincronizar]
-    G --> H[Reintentar Exportar a Balanza]
+    B -- "No" --> F{"¿POS Abierto y Sincronizado?"}
+    F -- "No" --> G["Abrir POS / Sincronizar"]
+    G --> H["Reintentar Exportar a Balanza"]
     
-    F -- Sí --> H
-    H --> I{¿Se actualizó INFO?}
+    F -- "Sí" --> H
+    H --> I{"¿Se actualizó INFO?"}
     
-    I -- Sí --> E
-    I -- No --> J[Ingresar a POSCONFIG]
-    J --> K[Archivo > Articulo > Balanzas]
-    K --> L[Botón 'Exportar a Balanzas']
+    I -- "Sí" --> E
+    I -- "No" --> J["Ingresar a POSCONFIG"]
+    J --> K["Archivo > Articulo > Balanzas"]
+    K --> L["Botón 'Exportar a Balanzas'"]
     L --> E
 ```
 

@@ -2,7 +2,7 @@
 layout: default
 title: "Lector de huella Anviz"
 parent: "Anviz"
-grandparent: "IT"
+grand_parent: "IT"
 av_order: 2
 ---
 

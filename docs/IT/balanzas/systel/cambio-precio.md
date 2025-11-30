@@ -2,7 +2,7 @@
 layout: default
 title: "Cambio de precio manual en la balanza"
 parent: "Systel"
-grand_pareSystelnt: "Balanzas"
+grand_parent: "Balanzas"
 nav_order: 4
 ---
 

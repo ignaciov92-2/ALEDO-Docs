@@ -56,7 +56,7 @@ Guía práctica para cambiar precios directamente desde la balanza, tambien sirv
 
 ---
 
-## 6. Flujo visual (opcional)
+## 6. Flujo
 
 ```mermaid
 flowchart TD
